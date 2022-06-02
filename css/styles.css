@@ -2,12 +2,6 @@ html {
 	box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
 p,
 h1,
 h2,
@@ -50,6 +44,7 @@ address {
 	margin-left: 15px;
 	margin-right: 15px;
 	outline: 1px solid red;
+	margin: 0 auto;
 }
 
 .list {
@@ -94,6 +89,8 @@ img {
 
 .header-item:not(:last-child) {
 	margin-right: 50px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 /* WebStudio */
@@ -153,9 +150,12 @@ img {
 .hero {
 	background-color: #2f303a;
 	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-header {
+	text-align: center;
 	margin-bottom: 30px;
 	font-weight: 900;
 	font-size: 44px;
@@ -211,7 +211,7 @@ img {
 	gap: 30px;
 }
 
-/*-------------------*/
+/*---------WE DOING----------*/
 
 .we-doing {
 	padding-top: 94px;
@@ -225,11 +225,10 @@ img {
 
 .we-doing + .list {
 	display: flex;
-	gap: 30px;
+	justify-content: space-between;
 }
 
 .we-doing + .list li {
-	width: calc(100% - 60px / 3);
 }
 
 /*---------TEAM----------*/
@@ -239,6 +238,8 @@ img {
 }
 
 .team-header {
+	padding-top: 188px;
+	padding-bottom: 50px;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
@@ -246,11 +247,21 @@ img {
 	color: var(--primary-text-color);
 }
 
+.team-list {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 94px;
+}
+
 .team-list li {
 	background-color: var(--additional-text-color);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	flex-basis: calc(100% / 4 - 30px);
 }
 
 .team-list h3 {
+	padding-top: 30px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -260,6 +271,8 @@ img {
 }
 
 .team-list p {
+	padding-top: 10px;
+	padding-bottom: 30px;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
@@ -272,13 +285,21 @@ img {
 .footer {
 	background-color: #2f303a;
 	color: var(--additional-text-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
-.footer > .logo.link {
+.footer-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
 	color: var(--additional-text-color);
 }
 
 .address {
+	padding-top: 20px;
+	padding-bottom: 9px;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
@@ -296,6 +317,11 @@ img {
 .address .link:focus,
 .address .link:hover {
 	color: var(--accent-color);
+}
+
+.footer .contacts {
+	display: flex;
+	flex-direction: column;
 }
 
 /*-----------PORTFOLIO--------------*/
