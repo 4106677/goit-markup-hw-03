@@ -41,10 +41,15 @@ address {
 
 .container {
 	width: 1200px;
-	margin-left: 15px;
-	margin-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 	outline: 1px solid red;
 	margin: 0 auto;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .list {
@@ -70,12 +75,14 @@ body {
 img {
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 
 /*-----Header------*/
 
 .header {
 	display: flex;
+	border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -214,7 +221,6 @@ img {
 }
 
 .hero-benefits {
-	padding-top: 94px;
 	display: flex;
 	gap: 30px;
 }
@@ -243,7 +249,6 @@ img {
 }
 
 .team-header {
-	padding-top: 188px;
 	padding-bottom: 50px;
 	font-size: 36px;
 	line-height: 1.17;
@@ -255,7 +260,6 @@ img {
 .team-list {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 94px;
 }
 
 .team-list li {
@@ -334,7 +338,6 @@ img {
 /*-----------PORTFOLIO--------------*/
 
 .filtr {
-	padding-top: 94px;
 	padding-bottom: 50px;
 	display: flex;
 	justify-content: center;
@@ -345,6 +348,7 @@ img {
 }
 
 .button {
+	padding: 6px 22px;
 	display: inline-block;
 	background-color: var(--button-background-color);
 	font-family: inherit;
@@ -387,7 +391,9 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	padding-bottom: 94px;
+}
+
+.portfolio-item {
 }
 
 .portfolio-border {
