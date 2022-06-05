@@ -112,7 +112,7 @@ img {
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--primary-text-color);
-	padding-right: 93px;
+	margin-right: 93px;
 }
 
 .logo-bracket {
@@ -204,6 +204,7 @@ img {
 }
 
 .benefits-accent {
+	margin-bottom: 10px;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -221,7 +222,6 @@ img {
 }
 
 .benefits-about {
-	padding-top: 10px;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -318,7 +318,7 @@ img {
 }
 
 .address {
-	margin-top: 30px;
+	margin-top: 20px;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
@@ -389,6 +389,7 @@ img {
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--primary-text-color);
+	margin-bottom: 4px;
 }
 
 .portfolio-filtr {
