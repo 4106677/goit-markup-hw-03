@@ -38,47 +38,56 @@
     <main>
         <section class="hero">
 
-            <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button" type="button">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
+                <button class="hero-button" type="button">Заказать услугу</button>
 
+            </div>
         </section>
 
         <section class="section">
             <div class="container">
-                <h2 class="visually-hidden">Наши достоинства</h2>
-                <ul class="hero-benefits list">
-                    <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                    <li>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                    <li>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                    <li>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>
-            </div>
 
-            <div class="container">
-                <h2 class="we-doing">Чем мы занимаемся</h2>
-                <ul class="list">
-                    <li>
-                        <img src="images/index/box_1.jpg" alt="Разработка" width="370">
-                    </li>
-                    <li>
-                        <img src="images/index/box_2.jpg" alt="Тестирование" width="370">
-                    </li>
-                    <li>
-                        <img src="images/index/box_3.jpg" alt="Дизайн" width="370">
-                    </li>
-                </ul>
+                <div class="features">
+                    <h2 class="visually-hidden">Наши достоинства</h2>
+                    <ul class="hero-benefits list">
+                        <li class="benefits-item">
+                            <h3 class="benefits-accent">Внимание к деталям</h3>
+                            <p class="benefits-about">Идейные соображения, а также начало повседневной работы по
+                                формированию позиции.</p>
+                        </li>
+                        <li class="benefits-item">
+                            <h3 class="benefits-accent">Пунктуальность</h3>
+                            <p class="benefits-about">Задача организации, в особенности же рамки и место обучения кадров
+                                влечет за собой.</p>
+                        </li>
+                        <li class="benefits-item">
+                            <h3 class="benefits-accent">Планирование</h3>
+                            <p class="benefits-about">Равным образом консультация с широким активом в значительной
+                                степени обуславливает.</p>
+                        </li>
+                        <li class="benefits-item">
+                            <h3 class="benefits-accent">Современные технологии</h3>
+                            <p class="benefits-about">Значимость этих проблем настолько очевидна, что реализация
+                                плановых заданий.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="works">
+                    <h2 class="we-doing">Чем мы занимаемся</h2>
+                    <ul class="list">
+                        <li>
+                            <img src="images/index/box_1.jpg" alt="Разработка" width="370">
+                        </li>
+                        <li>
+                            <img src="images/index/box_2.jpg" alt="Тестирование" width="370">
+                        </li>
+                        <li>
+                            <img src="images/index/box_3.jpg" alt="Дизайн" width="370">
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -88,23 +97,31 @@
                 <ul class="team-list list">
                     <li class="team-item">
                         <img src="images/index/product_designer_photo.jpg" alt="Product Designer" width="270">
-                        <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-name">Игорь Демьяненко</h3>
+                            <p class="team-title">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="images/index/frontend_developer_photo.jpg" alt="Frontend Developer" width="270">
-                        <h3>Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-name">Ольга Репина</h3>
+                            <p class="team-title">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="images/index/marketing_photo.jpg" alt="Marketing" width="270">
-                        <h3>Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-name">Николай Тарасов</h3>
+                            <p class="team-title">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="images/index/ui_designer_photo.jpg" alt="UI Designer" width="270">
-                        <h3>Михаил Ермаков</h3>
-                        <p>UI Designer</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-name">Михаил Ермаков</h3>
+                            <p class="team-title">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -121,8 +138,8 @@
                     26</a>
             </address>
             <ul class="contacts list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contacts-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </footer>
